@@ -1,0 +1,14 @@
+{
+  "name": "sass-layout",
+  "version": "1.0.0",
+  "description": "NaTours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/scss/style.scss assets/css/style.css -w"
+  },
+  "author": "Madhuri",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.8.1"
+  }
+}
